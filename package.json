@@ -29,14 +29,13 @@
     "tsup": "^8.5.1",
     "typescript": "^5.9.3"
   },
-  "main": "./dist/index.mjs",
-  "types": "./dist/index.d.mts",
-  "typings": "./dist/index.d.mts",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.js",
   "exports": {
     ".": {
-      "types": "./dist/index.d.mts",
-      "import": "./dist/index.mjs"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     },
     "./client": {
       "types": "./client.d.ts"
