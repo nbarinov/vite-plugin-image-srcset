@@ -6,10 +6,22 @@ Import a single image and get `src` + `srcSet` for 1x/2x/3x pixel densities.
 
 ## Installation
 
+**pnpm**
+
+```bash
+pnpm add -D vite-plugin-image-srcset
+```
+
+**npm**
+
 ```bash
 npm install -D vite-plugin-image-srcset
-# or
-pnpm add -D vite-plugin-image-srcset
+```
+
+**yarn**
+
+```bash
+yarn add -D vite-plugin-image-srcset
 ```
 
 ## Setup
