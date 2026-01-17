@@ -1,0 +1,65 @@
+{
+  "name": "vite-plugin-image-srcset",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Simple Vite plugin to generate srcset attributes for images",
+  "author": "Nikita Barinov <nikitabarinov2301@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/nbarinov/vite-plugin-image-srcset#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbarinov/vite-plugin-image-srcset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nbarinov/vite-plugin-image-srcset/issues"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "tsup",
+    "build": "tsup",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "vite": "^5.0.0 || ^6.0.0 || ^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "prettier": "^3.8.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "typings": "./dist/index.d.mts",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    },
+    "./client": {
+      "types": "./client.d.ts"
+    }
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "image",
+    "srcset",
+    "responsive",
+    "retina",
+    "hdpi"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "client.d.ts"
+  ],
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
